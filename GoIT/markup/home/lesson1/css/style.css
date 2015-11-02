@@ -1,17 +1,40 @@
 body {
-  width: 425px;
-  padding: 10px;
-  margin: auto;
-  font-family: tahoma;
-  font-size: 14px;
+  font-family: "Times New Roman";
+  font-size: 18px;
+  background-color: #eeeeee;
 }
-h1 {
+.main {
+  width: 412px;
+  margin: 0 auto;
+  padding: 50px 50px 70px 50px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
   text-align: center;
 }
-img {
-  display: block;
+
+.photo {
+  width: 135px;
   margin: 0 auto;
+  line-height: 0;
 }
-.box1 {
-  margin-bottom: 10px;
+
+header, .center, .contacts, .feedback {
+  padding: 0 15px;
+}
+
+header, .center, .contacts {
+  border-bottom: 1px solid grey;
+}
+
+.center ul {
+  padding-left: 25px;
+}
+.center li, .contacts span, .feedback span {
+  line-height: 26px;
+}
+p span {
+  display: block;
 }
