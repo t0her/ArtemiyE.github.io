@@ -37,6 +37,8 @@ body{
   font-size: 15px;
   color: #ffffff;
   text-decoration: none;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 .menu a:hover{
   border-left: 1px solid #838383;
