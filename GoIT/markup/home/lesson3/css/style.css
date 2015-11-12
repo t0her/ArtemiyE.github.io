@@ -97,13 +97,11 @@ body{
   padding: 64px 0;
 }
 .footer-menu{
-position: relative;
-overflow: hidden;
-background: #e1e1e1;
+  background: #e1e1e1;
+  overflow: hidden;
 }
 .footer-menu li{
   float: left;
-  overflow: hidden;
   line-height: 40px;
 }
 .footer-menu a{
