@@ -103,6 +103,7 @@ body{
 .footer-menu li{
   float: left;
   line-height: 40px;
+  list-style: none;
 }
 .footer-menu a{
   display: block;
