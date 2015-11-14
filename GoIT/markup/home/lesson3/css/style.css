@@ -109,11 +109,11 @@ footer{
 }
 .footer-menu li{
   float: left;
-  line-height: 40px;
   list-style: none;
 }
 .footer-menu a{
   display: block;
+  line-height: 40px;
   padding: 0 50px;
   font-size: 13px;
   color: #2c2c2c;
