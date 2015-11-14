@@ -93,12 +93,19 @@ body{
 
 /*FOOTER*/
 
-.footer{
+footer{
   padding: 64px 0;
+  position: relative;
+  overflow: hidden;
+}
+.footer{
+  width: 75%;
+  float: left;
 }
 .footer-menu{
-  background: #e1e1e1;
+  position: relative;
   overflow: hidden;
+  background: #e1e1e1;
 }
 .footer-menu li{
   float: left;
@@ -109,13 +116,15 @@ body{
   display: block;
   padding: 0 50px;
   font-size: 13px;
-  color: 2c2c2c;
+  color: #2c2c2c;
   text-decoration: none;
 }
 .footer-menu a:hover{
   text-decoration: underline;
 }
-.footer-menu .copyrigths{
+.copyrigths{
+  padding: 0 27px;
   float: right;
-  padding: 0 26px;
+  line-height: 40px;
+  background: #e1e1e1;
 }
