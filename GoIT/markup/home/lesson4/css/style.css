@@ -32,7 +32,7 @@ li{
 }
 .header-right{
   float: right;
-  width: 330px;
+  width: 355px;
   margin: 10px 30px;
 }
 .contacts{
@@ -49,6 +49,7 @@ li{
 }
 .flags li{
   display: inline-block;
+  padding: 0 5px;
 }
 .flags a{
   color: #128aa7;
