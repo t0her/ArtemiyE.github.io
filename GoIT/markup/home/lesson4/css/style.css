@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma; Arial; sans-serif;
+}
+body{
+  background: url(../img/background.jpg);
+}
+ul{
+  list-style: none;
+}
+li{
+  text-align: center;
+}
+.clearfix:after{
+  content: " ";
+  clear: both;
+  display: block;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  background: #ffffff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.header-top{
+  height: 175px;
+}
+.main-logo{
+  margin: 10px 30px;
+  height: 165px;
+}
+.header-right{
+  float: right;
+  width: 330px;
+  margin: 10px 30px;
+}
+.contacts{
+  float: right;
+}
+.contacts p{
+  font-size: 12px;
+  color: #128aa7;
+  line-height: 19px;
+}
+.flags{
+  float: right;
+  padding: 15px 0 0;
+}
+.flags li{
+  display: inline-block;
+}
+.flags a{
+  color: #128aa7;
+  font-size: 10px;
+}
+.flags a:hover{
+  text-decoration: none;
+}
+.menu{
+  background: linear-gradient(to bottom, #373737, #303030);
+  height: 30px;
+  box-shadow: 0px 3px 1px 0px rgba(40, 40, 40, 0.75);
+  position: relative;
+  z-index: 1;
+}
+.menu a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 5px;
+}
+.menu .symbol{
+  font-size: 8px;
+  vertical-align: middle;
+}
+.menu li{
+  float: left;
+  height: 30px;
+  width: 140px;
+  cursor: pointer;
+  position: relative;
+}
+.menu li ul{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  margin: 0;
+  width: 140px;
+  background: #303030;
+  box-shadow: 0px 5px 3px 0px rgba(40, 40, 40, 0.75);
+}
+.menu li:hover ul{
+  display: block;
+}
+.menu li:hover{
+  background: #404040;
+}
+.container{
+  height: 545px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #424c43;
+  text-align: justify;
+}
+.container p{
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.container .info{
+  height: 100%;
+  width: 178px;
+  float: left;
+  background: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  position: relative;
+  z-index: 0;
+  padding: 0 15px;
+}
+.container .content{
+  height: 100%;
+  width: 550px;
+  float: left;
+  padding: 0 15px;
+}
+.container .news{
+  height: 100%;
+  width: 178px;
+  float: right;
+  background: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  position: relative;
+  z-index: 0;
+  padding: 0 15px;
+}
+footer p{
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
