@@ -43,6 +43,12 @@ li{
   color: #128aa7;
   line-height: 19px;
 }
+.contacts a{
+  text-decoration: none;
+  color: #128aa7;
+  font-size: 12px;
+  line-height: 19px;
+}
 .flags{
   float: right;
   padding: 15px 0 0;
@@ -75,6 +81,7 @@ li{
 .menu .symbol{
   font-size: 8px;
   vertical-align: middle;
+  padding: 5px;
 }
 .menu li{
   float: left;
