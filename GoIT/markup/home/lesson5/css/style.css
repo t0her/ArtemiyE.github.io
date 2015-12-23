@@ -148,6 +148,7 @@ input:focus{
   padding: 0 13px;
   background: linear-gradient(to bottom, #50aedb, #2e7ac4);
   font-size: 14px;
+  cursor: pointer;
 }
 .input-form--content p{
   text-align: center;
